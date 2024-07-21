@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+
+
+    <div id="container">
+        <div id="header">
+            <span>FLASH CARDS</span>
+        </div>
+
+        <div class="togglecontainer">
+            <label><input type="checkbox" id="toggle" class="toggle" checked> Spanish to English </label>
+            <select class="sectiondropdown">
+                <option>--</option>
+            </select>
+        </div>
+
+        <div class="centerpanel">
+            <div class="card__wrapper">
+                <button id="prevBtn" class="prevBtn"> &#8612;</button>
+                <button id="nextBtn" class="nextBtn">&#8614;</button>
+                <div class="card">
+                    <div class="card--front">
+                        Hola
+                    </div>
+                    <div class="card--back">
+                        Hello
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="index.js" type="module"></script>
+</body>
+
+</html>
