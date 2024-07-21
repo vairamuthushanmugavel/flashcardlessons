@@ -562,15 +562,4 @@ export default {
         "alérgico": "allergic",
         "ojos": "eyes"
     }
-
-
-
-
-
-
-
-
-
-
-
 }
